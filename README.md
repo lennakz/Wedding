@@ -1,2 +1,2 @@
 # Wedding
-Wedding invitation website for my wedding
+Wedding invitation website for my wedding :D!
