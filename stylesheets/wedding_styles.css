@@ -569,7 +569,7 @@ a:hover {
 
   .header-messages {
     height: 510px;
-    background: url("images/header-background.jpg") no-repeat -390px -55px;
+    background: url("images/header-background.jpg") no-repeat -620px -110px;
     background-size: cover;
     background-attachment: fixed;
   }
