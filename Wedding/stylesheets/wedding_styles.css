@@ -1,0 +1,690 @@
+/*===== Base Tags =====*/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  color: #868089;
+  font: 16px/1.6 'Lato', sans-serif;
+}
+
+main {
+  position: relative;
+  padding: 100px 0 50px;
+  background-color: #fff;
+}
+
+section + section {
+  margin-top: 150px;
+}
+
+h1, h2, h3 {margin-top: 0;}
+
+h1, h2 {font: 40px 'Pacifico', sans-serif;}
+
+h1 {
+  margin-bottom: 30px;
+  margin-left: -5px;
+  color: #fff;
+}
+
+h2 {
+  margin-bottom: 25px;
+  color: #f2798f;
+}
+
+h3 {
+  margin-bottom: 10px;
+  color: #868089;
+  font: 18px/1.4 'Lato' normal, sans-serif;
+}
+
+ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+dl {
+  margin: 0;
+}
+
+dl + dl {
+  margin-top: 5px;
+}
+
+dt, dd {
+  display: inline-block;
+  vertical-align: top;
+}
+
+dd {
+  max-width: 600px;
+  margin-left: 5px;
+}
+
+p {margin: 0;}
+
+a {
+  color: #79a9e3;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4781C7;
+  text-decoration: underline;
+}
+
+/*===== Layout =====*/
+
+.container {
+  position: relative;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.text-block-left {
+  padding-left: 320px;
+}
+
+.text-block-right {
+  padding-right: 320px;
+}
+
+.paragrapher-text {
+  margin-top: 25px;
+}
+
+.section-photo {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.section-photo.right {
+  float: right;
+}
+
+.section-photo.left {
+  float: left;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+/*===== Header =====*/
+
+.header-messages {
+  width: 100%;
+}
+
+.header-messages-main,
+.header-messages-sub {
+  position: relative;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.header-messages-main {
+  width: 500px;
+  height: 500px;
+  margin-top: -140px;
+  background-color: rgba(213, 136, 190, 0.8);
+}
+
+.header-messages-main-text {
+  position: absolute;
+  top: 150px;
+  left: 60px;
+}
+
+.header-messages-main-text .name,
+.header-messages-main-text .date-and-place {
+  display: block;
+}
+
+.header-messages-main-text .name {
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+
+.header-messages-main-text .date-and-place {
+  margin-left: 3px;
+  font-size: 22px;
+}
+
+.header-messages-sub {
+  width: 184px;
+  height: 184px;
+  margin-top: -185px;
+  margin-left: 330px;
+  background-color: rgba(255, 126, 148, 0.7);
+}
+
+.header-messages-sub span {
+  position: absolute;
+  top: 50px;
+  left: 36px;
+  font: 30px 'Pacifico', sans-serif;
+  line-height: 1.5;
+}
+
+/*===== Navigation Bar =====*/
+
+/* For Sticky Bar */
+
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  z-index: 20;
+}
+
+/* Other Styles */
+
+.navbar {
+  width: 100%;
+  margin: 0;
+  padding: 10px 0;
+  background-color: #deedff;
+  font: 20px 'Pacifico', sans-serif;
+  text-align: center;
+}
+
+.navbar ul {
+  margin: 0;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar li + li {
+  margin-left: 50px;
+}
+
+.navbar li a {
+  color: #868089;
+}
+
+.navbar li a:hover {
+  color: #79a9e3;
+}
+
+/*===== Our Ceremony =====*/
+
+.our-ceremony .section-photo {
+  background-image: url('images/our-ceremony.jpg');
+  background-position: 0 0;
+}
+
+/*===== Our Ceremony =====*/
+
+.dinner-party .section-photo {
+  background-image: url('images/dinner-party.jpg');
+  background-position: 0 0;
+}
+
+/*===== Contact Us =====*/
+
+.contact-us .section-photo {
+  background-image: url('images/contact-us.jpg');
+  background-position: -120px 0;
+}
+
+.contact-info {
+  float: left;
+}
+.contact-info + .contact-info {
+  margin-left: 50px;
+}
+
+/*===== Photos ===== */
+
+.photos {
+  padding: 50px 0;
+  background-color: #ffedfa;
+  text-align: center;
+}
+
+.photos p {
+  width: 550px;
+  margin: 0 auto;
+  color: #868089;
+}
+
+.photos p + .photos-btn {
+  margin-top: 35px;
+}
+
+.button-primary {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e17b88;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+.button-primary:hover {
+  background-color: #D65E6D;
+}
+
+/*===== Footer =====*/
+
+.footer {
+  padding: 21px 0 18px;
+  background-color: #dee5e5;
+  color: #868089;
+  text-align: center;
+}
+
+.footer p a {
+  color: #555;
+  text-decoration: none;
+}
+
+.footer p a:hover {
+  color: #868089;
+  text-decoration: underline;
+}
+
+/*===== Scroll to Top Button =====*/
+
+.return-to-top {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgba(121, 169, 227, 0.8);
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.return-to-top i {
+  margin-top: -5px;
+  color: #fff;
+  font-size: 50px;
+}
+
+.return-to-top:hover {
+  background-color: rgba(121, 169, 227, 1);
+}
+
+.return-to-top:hover i {
+  margin-top: -10px;
+}
+
+/*===== For Desktop HD =====*/
+
+@media only screen and (min-width: 1280px) {
+  header {
+    height: 550px;
+  }
+  .header-messages {
+    height: 550px;
+    background: url("images/header-background.jpg") no-repeat left -200px;
+    background-size: 120%;
+    background-attachment: fixed;
+  }
+  .navbar-fixed {
+    position: fixed;
+    top: 0;
+    z-index: 20;
+  }
+}
+
+/*===== For Desktop =====*/
+
+@media (min-width: 1025px) and (max-width: 1279px) {
+ header {
+   height: 550px;
+ }
+ .header-messages {
+   height: 550px;
+   background: url("images/header-background.jpg") no-repeat 0 -200px;
+   background-size: 130%;
+   background-attachment: fixed;
+ }
+ .navbar-fixed {
+   position: fixed;
+   top: 0;
+   z-index: 20;
+ }
+}
+
+/*===== For Tablet =====*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    font-size: 14px;
+  }
+  header {
+    height: 450px;
+  }
+  main {
+    position: relative;
+    padding: 80px 0 50px;
+    background-color: #fff;
+  }
+  section + section {
+    margin-top: 120px;
+  }
+  h1 {
+    margin-bottom: 20px;
+    margin-left: -5px;
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  dd {
+    max-width: 450px;
+    margin-left: 5px;
+  }
+  p {margin: 0;}
+
+  /*===== Layout =====*/
+
+  .text-block-left {
+    padding-left: 230px;
+  }
+  .text-block-right {
+    padding-right: 230px;
+  }
+  .section-photo {
+    width: 200px;
+    height: 200px;
+  }
+
+  /*===== Header =====*/
+
+  .header-messages {
+    height: 450px;
+    background: url("images/header-background.jpg") no-repeat 0 -100px;
+    background-size: 130%;
+    background-attachment: fixed;
+  }
+  .header-messages-main {
+    width: 420px;
+    height: 420px;
+  }
+  .header-messages-main-text {
+    top: 150px;
+    left: 55px;
+  }
+  .header-messages-main-text .name {
+    margin-bottom: 5px;
+    font-size: 28px;
+  }
+
+  .header-messages-main-text .date-and-place {
+    margin-left: 3px;
+    font-size: 18px;
+  }
+
+  .header-messages-sub {
+    width: 150px;
+    height: 150px;
+    margin-top: -155px;
+    margin-left: 270px;
+  }
+
+  .header-messages-sub span {
+    top: 45px;
+    left: 35px;
+    font-size: 22px;
+    line-height: 1.5;
+  }
+
+  /*===== Navigation Bar =====*/
+
+  /* Other Styles */
+
+  .navbar {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  .navbar-fixed {
+    position: fixed;
+    top: 0;
+    z-index: 20;
+  }
+
+  .navbar ul {
+    margin: 0;
+  }
+
+  .navbar li + li {
+    margin-left: 50px;
+  }
+
+  /*===== Our Ceremony =====*/
+
+  .our-ceremony .section-photo {
+    background-position: 0 0;
+  }
+
+  /*===== Our Ceremony =====*/
+
+  .dinner-party .section-photo {
+    background-position: 0 0;
+  }
+
+  /*===== Contact Us =====*/
+
+  .contact-us .section-photo {
+    background-position: -120px 0;
+  }
+
+  .contact-info + .contact-info {
+    margin-left: 50px;
+  }
+
+  /*===== Photos ===== */
+
+  .photos {
+    padding: 50px 0;
+  }
+
+  .photos p {
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  .photos p + .photos-btn {
+    margin-top: 35px;
+  }
+}
+
+/*===== For Mobile =====*/
+
+@media (min-width: 320px) and (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+  header {
+    height: 510px;
+  }
+  main {
+    position: relative;
+    padding: 80px 0 50px;
+    background-color: #fff;
+  }
+  section + section {
+    margin-top: 80px;
+  }
+  h1 {
+    margin-bottom: 20px;
+    margin-left: -5px;
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  dd {
+    max-width: 450px;
+    margin-left: 5px;
+  }
+  p {margin: 0;}
+
+  /*===== Layout =====*/
+
+  .section-photo.left,
+  .section-photo.right {
+    float: none;
+  }
+
+  .text-block-left {
+    padding-left: 0;
+  }
+  .text-block-right {
+    padding-right: 0;
+  }
+  .section-photo {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 30px;
+  }
+
+  /*===== Header =====*/
+
+  .header-messages {
+    height: 510px;
+    background: url("images/header-background.jpg") no-repeat -390px -55px;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .header-messages .container{
+    height: 510px;
+  }
+  .header-messages-main {
+    position: absolute;
+    bottom: -80px;
+    left: -20px;
+    width: 320px;
+    height: 320px;
+    margin-top: 0;
+  }
+  .header-messages-main-text {
+    top: 65px;
+    left: 50px;
+  }
+  .header-messages-main-text .name {
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+
+  .header-messages-main-text .date-and-place {
+    margin-left: 3px;
+    font-size: 16px;
+  }
+
+  .header-messages-sub {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .header-messages-sub span {
+    top: 45px;
+    left: 35px;
+    font-size: 22px;
+    line-height: 1.5;
+  }
+
+  /*===== Navigation Bar =====*/
+
+  /* Other Styles */
+
+  .navbar {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  .navbar-fixed {
+    position: fixed;
+    top: 0;
+    z-index: 20;
+  }
+
+  .navbar ul {
+    margin: 0;
+  }
+
+  .navbar li + li {
+    margin-left: 15px;
+  }
+
+  .navbar a {
+    font-size: 16px;
+  }
+
+  /*===== Our Ceremony =====*/
+
+  .our-ceremony .section-photo {
+    background-position: 0 0;
+  }
+
+  /*===== Our Ceremony =====*/
+
+  .dinner-party .section-photo {
+    background-position: 0 0;
+  }
+
+  /*===== Contact Us =====*/
+
+  .contact-us .section-photo {
+    background-position: -120px 0;
+  }
+
+  .contact-info + .contact-info {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  /*===== Photos ===== */
+
+  .photos {
+    padding: 50px 0;
+  }
+
+  .photos p {
+    width: 100%;
+    margin: auto;
+  }
+
+  .photos p + .photos-btn {
+    margin-top: 35px;
+  }
+
+  .return-to-top {
+    bottom: 80px;
+    right: 20px;
+  }
+
+}
