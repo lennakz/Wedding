@@ -503,7 +503,7 @@ a:hover {
     font-size: 14px;
   }
   header {
-    height: 510px;
+    height: 470px;
   }
   main {
     position: relative;
@@ -516,7 +516,7 @@ a:hover {
   h1 {
     margin-bottom: 20px;
     margin-left: -5px;
-    font-size: 24px;
+    font-size: 26px;
   }
   h2 {
     font-size: 35px;
@@ -549,12 +549,12 @@ a:hover {
   /*===== Header =====*/
 
   .header-messages {
-    height: 510px;
+    height: 470px;
     background: url("/images/header-background.jpg") no-repeat 56% 0;
     background-size: cover;
   }
   .header-messages .container{
-    height: 510px;
+    height: 470px;
   }
   .header-messages-main {
     position: absolute;
@@ -565,8 +565,8 @@ a:hover {
     margin-top: 0;
   }
   .header-messages-main-text {
-    top: 65px;
-    left: 50px;
+    top: 70px;
+    left: 40px;
   }
   .header-messages-main-text .name {
     margin-bottom: 5px;
@@ -580,18 +580,18 @@ a:hover {
 
   .header-messages-sub {
     position: absolute;
-    top: 0;
+    top: -30px;
     right: 0;
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     margin-top: 0;
     margin-left: 0;
   }
 
   .header-messages-sub span {
-    top: 45px;
-    left: 33px;
-    font-size: 22px;
+    top: 40px;
+    left: 29px;
+    font-size: 18px;
     line-height: 1.5;
   }
 
