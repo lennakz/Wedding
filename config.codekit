@@ -99,24 +99,13 @@
 		},
 	"\/javascript\/animations.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/javascript\/animations.js",
 		"outputAbbreviatedPath": "\/javascript\/min\/animations-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/javascript\/min\/animations-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/javascript\/min\/animations-min.js",
-		"outputAbbreviatedPath": "\/javascript\/min\/min\/animations-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
 	"\/library\/font-awesome-4.6.3\/css\/font-awesome.css": {

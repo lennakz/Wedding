@@ -43,21 +43,21 @@ $(document).ready(function(){
 
 	  $('#dinner-party-btn').click(function() {
 		$('html, body').animate({
-				scrollTop: $('#dinner-party').offset().top - 70
+				scrollTop: $('#dinner-party').offset().top - 120
 		}, 500);
 		return false;
 	});
 
 	$('#contact-us-btn').click(function() {
 		$('html, body').animate({
-				scrollTop: $('#contact-us').offset().top - 70
+				scrollTop: $('#contact-us').offset().top - 100
 		}, 500);
 		return false;
 	});
 
 	$('#photos-btn').click(function() {
 		$('html, body').animate({
-				scrollTop: $('#photos').offset().top - 70
+				scrollTop: $('#photos').offset().top - 100
 		}, 500);
 		return false;
 	});
