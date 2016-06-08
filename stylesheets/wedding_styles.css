@@ -97,10 +97,12 @@ a:hover {
 }
 
 .section-photo {
+  text-align: center;
+}
+
+.section-photo img {
   width: 250px;
   height: 250px;
-  border-radius: 50%;
-  background-size: cover;
 }
 
 .section-photo.right {
@@ -217,28 +219,10 @@ a:hover {
 
 .navbar li a:hover {
   color: #79a9e3;
-}
-
-/*===== Our Ceremony =====*/
-
-.our-ceremony .section-photo {
-  background-image: url('images/our-ceremony.jpg');
-  background-position: 0 0;
-}
-
-/*===== Our Ceremony =====*/
-
-.dinner-party .section-photo {
-  background-image: url('images/dinner-party.jpg');
-  background-position: 0 0;
+  text-decoration: none;
 }
 
 /*===== Contact Us =====*/
-
-.contact-us .section-photo {
-  background-image: url('images/contact-us.jpg');
-  background-position: -120px 0;
-}
 
 .contact-info {
   float: left;
@@ -339,9 +323,8 @@ a:hover {
   }
   .header-messages {
     height: 550px;
-    background: url("images/header-background.jpg") no-repeat left -200px;
+    background: url("/images/header-background.jpg") no-repeat 0 14%;
     background-size: 120%;
-    background-attachment: fixed;
   }
   .navbar-fixed {
     position: fixed;
@@ -352,15 +335,14 @@ a:hover {
 
 /*===== For Desktop =====*/
 
-@media (min-width: 1025px) and (max-width: 1279px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
  header {
    height: 550px;
  }
  .header-messages {
    height: 550px;
-   background: url("images/header-background.jpg") no-repeat 0 -200px;
-   background-size: 130%;
-   background-attachment: fixed;
+   background: url("/images/header-background.jpg") no-repeat 0 0;
+   background-size: 140%;
  }
  .navbar-fixed {
    position: fixed;
@@ -371,7 +353,7 @@ a:hover {
 
 /*===== For Tablet =====*/
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   body {
     font-size: 14px;
   }
@@ -408,7 +390,7 @@ a:hover {
   .text-block-right {
     padding-right: 230px;
   }
-  .section-photo {
+  .section-photo img {
     width: 200px;
     height: 200px;
   }
@@ -417,9 +399,8 @@ a:hover {
 
   .header-messages {
     height: 450px;
-    background: url("images/header-background.jpg") no-repeat 0 -100px;
-    background-size: 130%;
-    background-attachment: fixed;
+    background: url("/images/header-background.jpg") no-repeat 0 40px;
+    background-size: 140%;
   }
   .header-messages-main {
     width: 420px;
@@ -559,17 +540,17 @@ a:hover {
   .text-block-right {
     padding-right: 0;
   }
-  .section-photo {
+  .section-photo img {
     width: 200px;
     height: 200px;
-    margin: 0 auto 30px;
+    margin-bottom: 30px;
   }
 
   /*===== Header =====*/
 
   .header-messages {
     height: 510px;
-    background: url("images/header-background.jpg") no-repeat -620px -110px;
+    background: url("/images/header-background.jpg") no-repeat 56% -20px;
     background-size: cover;
     background-attachment: fixed;
   }
@@ -600,7 +581,7 @@ a:hover {
 
   .header-messages-sub {
     position: absolute;
-    top: -30px;
+    top: 0;
     right: 0;
     width: 150px;
     height: 150px;
@@ -610,7 +591,7 @@ a:hover {
 
   .header-messages-sub span {
     top: 45px;
-    left: 35px;
+    left: 33px;
     font-size: 22px;
     line-height: 1.5;
   }
@@ -662,6 +643,10 @@ a:hover {
     background-position: -120px 0;
   }
 
+  .contact-info {
+    width: 100%;
+  }
+
   .contact-info + .contact-info {
     margin-top: 20px;
     margin-left: 0;
@@ -683,8 +668,12 @@ a:hover {
   }
 
   .return-to-top {
-    bottom: 80px;
-    right: 20px;
+    bottom: 20px;
+    right: 10px;
   }
+
+  /*===== Footer ===== */
+
+  footer {font-size: 13px;}
 
 }
