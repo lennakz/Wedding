@@ -550,7 +550,7 @@ a:hover {
 
   .header-messages {
     height: 510px;
-    background: url("/images/header-background.jpg") no-repeat 56% -20px;
+    background: url("/images/header-background.jpg") no-repeat 56% 0;
     background-size: cover;
   }
   .header-messages .container{
