@@ -1,18 +1,22 @@
-/*===== Fixed Top Part after Scrolling*/
-
-$(window).scroll(function() {
-
-  if ($(this).scrollTop() > 400) {
-    $(".navbar").addClass("navbar-fixed");
-  } else {
-    $(".navbar").removeClass("navbar-fixed");
-  }
-
-});
-
-/*===== Navigation Scrolling Function =====*/
-
 $(document).ready(function(){
+
+  /*===== Fixed Top Part after Scrolling*/
+
+  var scrolledNumber = $("header").css("height").replace(/[^-\d\.]/g, '');
+
+  $(window).scroll(function() {
+
+    if ($(this).scrollTop() > scrolledNumber) {
+      $(".navbar").addClass("navbar-fixed");
+      $("main").addClass("main-fixed");
+    } else {
+      $(".navbar").removeClass("navbar-fixed");
+      $("main").removeClass("main-fixed");
+    }
+
+  });
+
+  /*===== Navigation Scrolling Function =====*/
 
 	$(window).scroll(function(){
 		if ($(this).scrollTop() > 200) {

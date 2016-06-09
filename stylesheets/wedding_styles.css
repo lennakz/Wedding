@@ -1,5 +1,9 @@
 /*===== Base Tags =====*/
 
+.main-fixed {
+  margin-top: 55px;    //Adding top margin after making nav bar fixed
+}
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -50,7 +54,7 @@ dl {
 }
 
 dl + dl {
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 dt, dd {
@@ -139,7 +143,7 @@ a:hover {
 .header-messages-main {
   width: 500px;
   height: 500px;
-  margin-top: -140px;
+  top: -140px;
   background-color: rgba(213, 136, 190, 0.8);
 }
 
@@ -167,8 +171,8 @@ a:hover {
 .header-messages-sub {
   width: 184px;
   height: 184px;
-  margin-top: -185px;
-  margin-left: 330px;
+  top: -325px;
+  left: 330px;
   background-color: rgba(255, 126, 148, 0.7);
 }
 
@@ -319,12 +323,12 @@ a:hover {
 
 @media only screen and (min-width: 1280px) {
   header {
-    height: 550px;
+    height: 450px;
   }
   .header-messages {
-    height: 550px;
-    background: url("/images/header-background.jpg") no-repeat 0 14%;
-    background-size: 120%;
+    height: 450px;
+    background: url("/images/header-background.jpg") no-repeat 0% 30%;
+    background-size: 140%;
   }
   .navbar-fixed {
     position: fixed;
@@ -337,11 +341,11 @@ a:hover {
 
 @media (min-width: 1024px) and (max-width: 1279px) {
  header {
-   height: 550px;
+   height: 450px;
  }
  .header-messages {
-   height: 550px;
-   background: url("/images/header-background.jpg") no-repeat 0 0;
+   height: 450px;
+   background: url("/images/header-background.jpg") no-repeat 0% 30%;
    background-size: 140%;
  }
  .navbar-fixed {
@@ -358,7 +362,7 @@ a:hover {
     font-size: 14px;
   }
   header {
-    height: 450px;
+    height: 300px;
   }
   main {
     position: relative;
@@ -377,8 +381,9 @@ a:hover {
     font-size: 35px;
   }
   dd {
+    display: block;
     max-width: 450px;
-    margin-left: 5px;
+    margin-left: 0;
   }
   p {margin: 0;}
 
@@ -398,8 +403,8 @@ a:hover {
   /*===== Header =====*/
 
   .header-messages {
-    height: 450px;
-    background: url("/images/header-background.jpg") no-repeat 0 40px;
+    height: 300px;
+    background: url("/images/header-background.jpg") no-repeat 0% 30%;
     background-size: 140%;
   }
   .header-messages-main {
@@ -423,8 +428,8 @@ a:hover {
   .header-messages-sub {
     width: 150px;
     height: 150px;
-    margin-top: -155px;
-    margin-left: 270px;
+    top: -295px;
+    left: 260px;
   }
 
   .header-messages-sub span {
@@ -503,7 +508,7 @@ a:hover {
     font-size: 14px;
   }
   header {
-    height: 470px;
+    height: 420px;
   }
   main {
     position: relative;
@@ -522,8 +527,9 @@ a:hover {
     font-size: 35px;
   }
   dd {
+    display: block;
     max-width: 450px;
-    margin-left: 5px;
+    margin-left: 0;
   }
   p {margin: 0;}
 
@@ -549,20 +555,16 @@ a:hover {
   /*===== Header =====*/
 
   .header-messages {
-    height: 470px;
-    background: url("/images/header-background.jpg") no-repeat 56% 0;
-    background-size: cover;
-  }
-  .header-messages .container{
-    height: 470px;
+    height: 420px;
+    background: url("/images/header-background.jpg") no-repeat 56% 54%;
+    background-size: 340%;
   }
   .header-messages-main {
-    position: absolute;
-    bottom: -80px;
-    left: -20px;
+    bottom: -185px;
+    left: -40px;
     width: 320px;
     height: 320px;
-    margin-top: 0;
+    top: auto;
   }
   .header-messages-main-text {
     top: 70px;
@@ -579,13 +581,12 @@ a:hover {
   }
 
   .header-messages-sub {
-    position: absolute;
-    top: -30px;
-    right: 0;
+    top: -340px;
+    bottom: auto;
+    right: -168px;
+    left: auto;
     width: 130px;
     height: 130px;
-    margin-top: 0;
-    margin-left: 0;
   }
 
   .header-messages-sub span {
