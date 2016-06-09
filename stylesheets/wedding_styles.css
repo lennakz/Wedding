@@ -330,6 +330,9 @@ a:hover {
     background: url("/images/header-background.jpg") no-repeat 0% 30%;
     background-size: 140%;
   }
+  .header-messages .container {
+    height: 450px;
+  }
   .navbar-fixed {
     position: fixed;
     top: 0;
@@ -347,6 +350,9 @@ a:hover {
    height: 450px;
    background: url("/images/header-background.jpg") no-repeat 0% 30%;
    background-size: 140%;
+ }
+ .header-messages .container {
+   height: 450px;
  }
  .navbar-fixed {
    position: fixed;
@@ -407,6 +413,9 @@ a:hover {
     background: url("/images/header-background.jpg") no-repeat 0% 30%;
     background-size: 140%;
   }
+  .header-messages .container {
+    height: 300px;
+  }
   .header-messages-main {
     width: 420px;
     height: 420px;
@@ -419,19 +428,16 @@ a:hover {
     margin-bottom: 5px;
     font-size: 28px;
   }
-
   .header-messages-main-text .date-and-place {
     margin-left: 3px;
     font-size: 18px;
   }
-
   .header-messages-sub {
     width: 150px;
     height: 150px;
     top: -295px;
     left: 260px;
   }
-
   .header-messages-sub span {
     top: 45px;
     left: 35px;
@@ -448,17 +454,14 @@ a:hover {
     margin: 0;
     padding: 10px 0;
   }
-
   .navbar-fixed {
     position: fixed;
     top: 0;
     z-index: 20;
   }
-
   .navbar ul {
     margin: 0;
   }
-
   .navbar li + li {
     margin-left: 50px;
   }
@@ -558,6 +561,9 @@ a:hover {
     height: 420px;
     background: url("/images/header-background.jpg") no-repeat 56% 54%;
     background-size: 340%;
+  }
+  .header-messages .container {
+    height: 420px;
   }
   .header-messages-main {
     bottom: -185px;
