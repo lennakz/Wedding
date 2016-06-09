@@ -135,7 +135,7 @@ a:hover {
 
 .header-messages-main,
 .header-messages-sub {
-  position: relative;
+  position: absolute;
   border-radius: 50%;
   color: #fff;
 }
@@ -171,8 +171,8 @@ a:hover {
 .header-messages-sub {
   width: 184px;
   height: 184px;
-  top: -325px;
-  left: 330px;
+  top: 175px;
+  left: 335px;
   background-color: rgba(255, 126, 148, 0.7);
 }
 
@@ -435,8 +435,8 @@ a:hover {
   .header-messages-sub {
     width: 150px;
     height: 150px;
-    top: -295px;
-    left: 260px;
+    top: 130px;
+    left: 290px;
   }
   .header-messages-sub span {
     top: 45px;
@@ -566,8 +566,8 @@ a:hover {
     height: 420px;
   }
   .header-messages-main {
-    bottom: -185px;
-    left: -40px;
+    bottom: -80px;
+    left: -25px;
     width: 320px;
     height: 320px;
     top: auto;
@@ -587,9 +587,9 @@ a:hover {
   }
 
   .header-messages-sub {
-    top: -340px;
+    top: -25px;
     bottom: auto;
-    right: -168px;
+    right: 0;
     left: auto;
     width: 130px;
     height: 130px;
